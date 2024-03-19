@@ -36,6 +36,9 @@ def display_ear_patch_menu():
     return Prompt.ask("Enter your choice", default="9")
 
 
+# lines = my_art.split('\n')
+# max_width = max(len(line) for line in lines)
+# print("Approximate width:", max_width)
 def display_nonear_patch_menu():
     clear_screen()
     menu_banner("Non-EAR Patching Menu", "~", show_time=True)
